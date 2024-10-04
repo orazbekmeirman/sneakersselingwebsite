@@ -1,0 +1,34 @@
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 250px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+  }
+  
+  .product-item:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .details-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .details-button:hover {
+    background-color: #e5533d;
+  }
+  
